@@ -6,7 +6,9 @@ const song = document.querySelector("#song");
 window.onload = function() {
     popup.style.display = "flex";
 }
-
+popup.addEventListener("click",function(){
+    popup.style.display="none";
+})
 // Play the song when the play button is clicked
 playButton.addEventListener("click", function() {
     song.play();
