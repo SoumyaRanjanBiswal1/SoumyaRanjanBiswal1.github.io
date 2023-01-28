@@ -181,4 +181,20 @@ body {
           transform: translateY(0);
       }
   }
+ .left-one{
+    height: 400px;
+    width:300px;
+    position:absolute;
+    left:5%;
+  }
+  .right-one{
+    height: 400px;
+    width:300px;
+    position: absolute;
+    right:5%;
+  }
+  @media only screen and (max-width:1000px){
+    .left-one{display: none;}
+    .right-one{display: none;}
+  }
   
